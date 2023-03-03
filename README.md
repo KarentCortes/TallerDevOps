@@ -4,7 +4,7 @@
 -----
 1. Busque en la carpeta / los archivo *.sh y guarde el resultado en un archivo y en el mismo comando imprimir en consola el archivo de salida
  
-Primero debemos entrar al usuario root, mediante el comando **sudo su** .  Una vez estando ahi, con el comando **find / -name "*.sh" ** estamos buscando todos los archivos del sistema con la extensión .sh y con el comando **tee resultados.txt** guardamos el resultado del comando anterior dentro del archivo que se crea y se denomina  archivo.txt y asi mismo listamos lo que se almacena dentro del archivo.
+Primero debemos entrar al usuario root, mediante el comando **sudo su** .  Una vez estando ahi, con el comando **find/-name"*.sh"** estamos buscando todos los archivos del sistema con la extensión .sh y con el comando **tee resultados.txt** guardamos el resultado del comando anterior dentro del archivo que se crea y se denomina  archivo.txt y asi mismo listamos lo que se almacena dentro del archivo.
 
 ![Taller1_Punto1](https://user-images.githubusercontent.com/126521214/222804716-4f83ff52-2454-4078-a9cf-43f26d179dd4.png)
 
@@ -41,7 +41,7 @@ Primero debemos entrar al usuario root, mediante el comando **sudo su** .  Una v
 
 4. Del listado anterior cambie el nombre de los archivos agregándole al final -mv.txt, liste los archivos e imprima el archivo en consola.
 
- Se toma el listado de archivos y se le cambia la extension de origen y se pasan todos a txt con el comando **mv -- "$LINEA" "${LINEA%.*}.txt, luego guardamos el    resultado y lo listamos 
+ Se toma el listado de archivos y se le cambia la extension de origen y se pasan todos a txt con el comando **mv -- "$LINEA" "${LINEA%.*}.txt** , luego guardamos el    resultado y lo listamos 
  ![T1P4 1](https://user-images.githubusercontent.com/126521214/222807263-5279b3e7-6d1e-47bd-abc2-a2fc03a0dbf2.jpg)
  ![T1P4 2](https://user-images.githubusercontent.com/126521214/222807278-b4598a70-8a54-416a-874a-634e370d0c86.png)
 
