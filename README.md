@@ -19,8 +19,11 @@
 ![T1P2 5](https://user-images.githubusercontent.com/126521214/222805810-e69f5fa9-9dae-46ff-b921-8828afef52b6.png)
 
 
-3. Leer entrada.in, utilice un patrón para borrar solo uno de los archivos del folder file_salida y listar la carpeta file_salida, guardar el resultado en un archivo XX    e imprima el contenido del archivo XX
-5. Del listado anterior cambie el nombre de los archivos agregándole al final -mv.txt, liste los archivos e imprima el archivo en consola
+3. Leer entrada.in, utilice un patrón para borrar solo uno de los archivos del folder file_salida y listar la carpeta file_salida, guardar el resultado en un archivo XX    e imprima el contenido del archivo XX.
+
+![T1P3](https://user-images.githubusercontent.com/126521214/222806923-e02cec69-9559-41f4-a6aa-3f44abbd9353.png)
+
+4. Del listado anterior cambie el nombre de los archivos agregándole al final -mv.txt, liste los archivos e imprima el archivo en consola
 
 ****TALLER 2****
 -----
