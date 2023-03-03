@@ -34,7 +34,7 @@ Primero debemos entrar al usuario root, mediante el comando **sudo su** .  Una v
 
 3. Leer entrada.in, utilice un patrón para borrar solo uno de los archivos del folder file_salida y listar la carpeta file_salida, guardar el resultado en un archivo XX e imprima el contenido del archivo XX.
 
- Se lee el contenido de file_salida y se elimina los archivos que se encuentran ahí con la extensión .sh
+ Se lee el contenido de file_salida y se elimina los archivos que se encuentran ahí con la extensión .sh  
  Y el resultado de los archivos restantes se guardan en otro archivo denominado archivoXX
 
  ![T1P3](https://user-images.githubusercontent.com/126521214/222806923-e02cec69-9559-41f4-a6aa-3f44abbd9353.png)
@@ -50,8 +50,12 @@ Primero debemos entrar al usuario root, mediante el comando **sudo su** .  Una v
 -----
 Crear un script Shell con un menú que me permita: 
 
+ Se crea el Menú con las distintas opciones y se le pide al usuario digitar la opción deseada, el valor que ingresa el usuario se guarda en la variable choice y         después se lee ésta para dar continuidad con el Menú.
+![T2](https://user-images.githubusercontent.com/126521214/222840032-03c78fe3-56f5-4b58-93ea-d2e42706cb27.png)
 
-1. Cambiar nombre Servidor
+1. Cambiar nombre Servidor.
+
+Una vez el usuario escoja la opción 1, se muestra en pantalla el nombre actual del servidor y se le pide al usuario dijitar el nuevo nombre del servidor, Ese nombre se guarda en la variable NameHost  y con el comando **sudo hostnamectl set-hostname $NameHost** se ejecutan los cambios por debajo de manera automatizada y finalmente se muestra en pantalla en nuevo nombre de servidor.  
 ![T2P1 3](https://user-images.githubusercontent.com/126521214/222814811-753c441d-365c-42dd-999a-189b7658559b.png)  
 
 ![T2P1 1](https://user-images.githubusercontent.com/126521214/222814485-410a8a84-ba8d-476f-a551-afc35a764729.png)  
