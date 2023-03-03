@@ -8,7 +8,17 @@
 
 2. Cree una lista de archivos separados por Enter llamándolo entrada.in, después con la lista leer entrada.in y crear los archivos con la lista creada en la carpeta        file_salida/, liste los archivos creados, guarde en un archivo salida.out e imprima el archivo  enumerando la lista de archivos creados.
 
- https://user-images.githubusercontent.com/126521214/222805704-f0b3ace7-d3b9-4332-bc06-f87d7b50f7f6.png
+![T1P2 1](https://user-images.githubusercontent.com/126521214/222805704-f0b3ace7-d3b9-4332-bc06-f87d7b50f7f6.png)  
+
+![T1P2 2](https://user-images.githubusercontent.com/126521214/222805729-67e814f8-0bac-41c7-81fd-8b1ce4e1cba7.png)  
+
+![T1P2 3](https://user-images.githubusercontent.com/126521214/222805774-9b2de4c0-b513-486a-b202-6d51d66aa08a.png)  
+
+![T1P2 4](https://user-images.githubusercontent.com/126521214/222805797-15a50f88-ba1d-4ebd-b6e3-714e24530eb7.png)
+
+![T1P2 5](https://user-images.githubusercontent.com/126521214/222805810-e69f5fa9-9dae-46ff-b921-8828afef52b6.png)
+
+
 3. Leer entrada.in, utilice un patrón para borrar solo uno de los archivos del folder file_salida y listar la carpeta file_salida, guardar el resultado en un archivo XX    e imprima el contenido del archivo XX
 5. Del listado anterior cambie el nombre de los archivos agregándole al final -mv.txt, liste los archivos e imprima el archivo en consola
 
