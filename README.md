@@ -2,7 +2,7 @@
 
 ****TALLER 1****
 -----
-1. Busque en la carpeta / los archivo *.sh y guarde el resultado en un archivo y en el mismo comando imprimir en consola el archivo de salida  
+**1. Busque en la carpeta / los archivo *.sh y guarde el resultado en un archivo y en el mismo comando imprimir en consola el archivo de salida** 
  
 Primero debemos entrar al usuario root, mediante el comando **sudo su** .  Una vez estando ahi, con el comando **find / -name "*.sh" ** estamos buscando todos los archivos del sistema con la extensión .sh y con el comando **tee resultados.txt** guardamos el resultado del comando anterior dentro del archivo que se crea y se denomina  archivo.txt y asi mismo listamos lo que se almacena dentro del archivo.
 
