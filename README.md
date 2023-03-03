@@ -23,7 +23,20 @@
 
 ![T1P3](https://user-images.githubusercontent.com/126521214/222806923-e02cec69-9559-41f4-a6aa-3f44abbd9353.png)
 
-4. Del listado anterior cambie el nombre de los archivos agregándole al final -mv.txt, liste los archivos e imprima el archivo en consola
+4. Del listado anterior cambie el nombre de los archivos agregándole al final -mv.txt, liste los archivos e imprima el archivo en consola.
+
+![T1P4 1](https://user-images.githubusercontent.com/126521214/222807263-5279b3e7-6d1e-47bd-abc2-a2fc03a0dbf2.jpg)
+![T1P4 2](https://user-images.githubusercontent.com/126521214/222807278-b4598a70-8a54-416a-874a-634e370d0c86.png)
+
 
 ****TALLER 2****
 -----
+Crear un script Shell con un menú que me permita:  
+1.Cambiar nombre Servidor
+2.Cambiar Partición Discos
+3.Cambiar IP Servidor
+4.Cambiar tabla de Host
+5.Agregar Permisos de Firewall
+6.Editar DNS Server
+7.Configurar proxy
+
