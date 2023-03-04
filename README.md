@@ -7,7 +7,7 @@ Primero debemos entrar al usuario root, mediante el comando **sudo su** .  Una v
 
 ![Taller1_Punto1](https://user-images.githubusercontent.com/126521214/222804716-4f83ff52-2454-4078-a9cf-43f26d179dd4.png)
 
-2. Cree una lista de archivos separados por Enter llamándolo entrada.in, después con la lista leer entrada.in y crear los archivos con la lista creada en la carpeta        file_salida/, liste los archivos creados, guarde en un archivo salida.out e imprima el archivo  enumerando la lista de archivos creados.
+2 Cree una lista de archivos separados por Enter llamándolo entrada.in, después con la lista leer entrada.in y crear los archivos con la lista creada en la carpeta        file_salida/, liste los archivos creados, guarde en un archivo salida.out e imprima el archivo  enumerando la lista de archivos creados.
 
  Se crea el archivo llamado entrada.in, el cual contiene una lista de archivos denominados: 
  -	Algo1.txt
@@ -31,14 +31,14 @@ Primero debemos entrar al usuario root, mediante el comando **sudo su** .  Una v
  ![T1P2 5](https://user-images.githubusercontent.com/126521214/222805810-e69f5fa9-9dae-46ff-b921-8828afef52b6.png)
 
 
-3. Leer entrada.in, utilice un patrón para borrar solo uno de los archivos del folder file_salida y listar la carpeta file_salida, guardar el resultado en un archivo XX e imprima el contenido del archivo XX.
+3 Leer entrada.in, utilice un patrón para borrar solo uno de los archivos del folder file_salida y listar la carpeta file_salida, guardar el resultado en un archivo XX e imprima el contenido del archivo XX.
 
  Se lee el contenido de file_salida y se elimina los archivos que se encuentran ahí con la extensión .sh.
  Y el resultado de los archivos restantes se guardan en otro archivo denominado archivoXX
 
  ![T1P3](https://user-images.githubusercontent.com/126521214/222806923-e02cec69-9559-41f4-a6aa-3f44abbd9353.png)
 
-4. Del listado anterior cambie el nombre de los archivos agregándole al final -mv.txt, liste los archivos e imprima el archivo en consola.
+4 Del listado anterior cambie el nombre de los archivos agregándole al final -mv.txt, liste los archivos e imprima el archivo en consola.
 
  Se toma el listado de archivos y se le cambia la extension de origen y se pasan todos a txt con el comando **mv -- "$LINEA" "${LINEA%.*}.txt** , luego guardamos el    resultado y lo listamos 
  ![T1P4 1](https://user-images.githubusercontent.com/126521214/222807263-5279b3e7-6d1e-47bd-abc2-a2fc03a0dbf2.jpg)
