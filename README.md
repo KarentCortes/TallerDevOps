@@ -117,7 +117,7 @@ Para agregar permisos de Firewall se le muestra un menú al usuario para que eli
 
 6 Editar DNS Server
 
-AL igual que en el punto anterior, se le da a conocer al usuario un menú para que elija la opción que desee y dependiendo de ésta, se ejecutará el comando pertienente.
+Al igual que en el punto anterior, se le da a conocer al usuario un menú para que elija la opción que desee y dependiendo de ésta, se ejecutará el comando pertienente.
 
 * sudo service resolvconf start : hablitar el servicio de DNS
 * sudo service resolvconf stop : detener el servicio de DNS
