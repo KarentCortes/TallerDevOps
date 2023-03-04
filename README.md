@@ -34,7 +34,7 @@ Primero debemos entrar al usuario root, mediante el comando **sudo su** .  Una v
 
 3. Leer entrada.in, utilice un patrón para borrar solo uno de los archivos del folder file_salida y listar la carpeta file_salida, guardar el resultado en un archivo XX e imprima el contenido del archivo XX.
 
- Se lee el contenido de file_salida y se elimina los archivos que se encuentran ahí con la extensión .sh  
+ Se lee el contenido de file_salida y se elimina los archivos que se encuentran ahí con la extensión .sh.
  Y el resultado de los archivos restantes se guardan en otro archivo denominado archivoXX
 
  ![T1P3](https://user-images.githubusercontent.com/126521214/222806923-e02cec69-9559-41f4-a6aa-3f44abbd9353.png)
@@ -56,6 +56,7 @@ Crear un script Shell con un menú que me permita:
 1. Cambiar nombre Servidor.
 
 Una vez el usuario escoja la opción 1, se muestra en pantalla el nombre actual del servidor y se le pide al usuario dijitar el nuevo nombre del servidor, Ese nombre se guarda en la variable NameHost  y con el comando **sudo hostnamectl set-hostname $NameHost** se ejecutan los cambios por debajo de manera automatizada y finalmente se muestra en pantalla en nuevo nombre de servidor.  
+
 ![T2P1 3](https://user-images.githubusercontent.com/126521214/222814811-753c441d-365c-42dd-999a-189b7658559b.png)  
 
 ![T2P1 1](https://user-images.githubusercontent.com/126521214/222814485-410a8a84-ba8d-476f-a551-afc35a764729.png)  
@@ -63,6 +64,9 @@ Una vez el usuario escoja la opción 1, se muestra en pantalla el nombre actual 
 ![T2P1 2](https://user-images.githubusercontent.com/126521214/222814769-f5418bd4-f91b-4ba7-89c1-cc0122126c15.png)  
 
 2. Cambiar Partición Discos 
+
+Cuando el usuario elije la opción 2, mediante el comando **sudo fdisk -l** se lista todos los disco para que el usuario elija el nombre del que desea particionar.
+Despues de que el usuario dijite el nombre del disco, con el comando **sudo fdisk $NameDisk** se ingresa a la configuracion para particionar el disco y se debe dijitar las opciones pertinenetes.
 
 ![T2P2 7](https://user-images.githubusercontent.com/126521214/222822385-3adb3098-4381-41e7-8b6c-a8662b42eb47.png)
 ![T2P2 1](https://user-images.githubusercontent.com/126521214/222822505-6d3d206b-af36-430f-a0dd-9bb37f2460d3.png)
@@ -79,13 +83,27 @@ Una vez el usuario escoja la opción 1, se muestra en pantalla el nombre actual 
 
 4. Cambiar tabla de Host  
 
+El archivo de hosts en este sistema se encuentra en la ruta /etc/hosts. Es un archivo de texto que podremos editar como superusuario con cualquier editor.
+En este caso usaremos el comando **sudo nano /etc/hosts** para poder ingresar al editor y agregar los hosts que necesite añadir.
+
 ![T2P4 3](https://user-images.githubusercontent.com/126521214/222824356-825466c1-4930-490d-9cdc-ff1c72a45e24.png)
+
 ![T2P4 1](https://user-images.githubusercontent.com/126521214/222824373-0689c4a7-b054-46fc-8fae-42bd7983096f.png)
+
 ![T2P4 2](https://user-images.githubusercontent.com/126521214/222824386-3618b1ea-f9dc-4f9b-a6c7-9df93ccdc931.png)
 
 
 
 5. Agregar Permisos de Firewall
+
+Para agregar permisos de Firewall se le muestra un menú al usuario para que elija cual de todos los permisos desea habilitar, una vez el usuario digite la opción del menú y dependiendo de la elección se ejecutará uno de los siguintes comando, que tienen como objetivo habilitar dicha opción.
+ 
+ *  sudo ufw enable : hablitar el servicio de Firewall
+ *  sudo ufw status :conocer el estado del  servicio
+ *  sudo ufw allow 22/tcp : habilitar puerto TCP
+ *  sudo ufw allow 22/udp : Habilitar puerto UDP
+ *  sudo ufw allow 30000:32767/tcp : habilitar rango puerto TCP
+ *  sudo ufw allow 30000:32767/udp : Habilitar rango puerto UDP
 
 ![T2P5 5](https://user-images.githubusercontent.com/126521214/222824504-e3fa2e67-a3f9-4f87-86fb-13cc9be90eef.png)
 
@@ -100,8 +118,16 @@ Una vez el usuario escoja la opción 1, se muestra en pantalla el nombre actual 
 
 6. Editar DNS Server
 
+AL igual que en el punto anterior, se le da a conocer al usuario un menú para que elija la opción que desee y dependiendo de ésta, se ejecutará el comando pertienente.
+
+* sudo service resolvconf start : hablitar el servicio de DNS
+* sudo service resolvconf stop : detener el servicio de DNS
+* sudo service resolvconf status : conocer el estado del servicio DNS
+* sudo service resolvconf restart : reiniciar el servicio de DNS
+*  sudo vi /etc/resolv.conf : editar el servicio de DNS
 
 ![T2P6 2](https://user-images.githubusercontent.com/126521214/222824785-a6b5419c-e804-4a3f-84d7-d70b82f79e26.png)
+
 ![T2P6 1](https://user-images.githubusercontent.com/126521214/222824799-b4d03d68-ddff-471b-b94a-3d2b8e3950e9.png)
 
 
