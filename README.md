@@ -1,8 +1,6 @@
 # Taller Sistemas Operativos
 ---
-
 ***TALLER 1***  
-
 -----
 1. Busque en la carpeta / los archivo *.sh y guarde el resultado en un archivo y en el mismo comando imprimir en consola el archivo de salida
  
@@ -65,7 +63,7 @@ Una vez el usuario escoja la opción 1, se muestra en pantalla el nombre actual 
 
 ![T2P1 2](https://user-images.githubusercontent.com/126521214/222814769-f5418bd4-f91b-4ba7-89c1-cc0122126c15.png)  
 
-2) Cambiar Partición Discos 
+2 Cambiar Partición Discos 
 
 Cuando el usuario elije la opción 2, mediante el comando **sudo fdisk -l** se lista todos los disco para que el usuario elija el nombre del que desea particionar.
 Despues de que el usuario dijite el nombre del disco, con el comando **sudo fdisk $NameDisk** se ingresa a la configuracion para particionar el disco y se debe dijitar las opciones pertinenetes.
@@ -79,11 +77,10 @@ Despues de que el usuario dijite el nombre del disco, con el comando **sudo fdis
 ![T2P2 6](https://user-images.githubusercontent.com/126521214/222822583-25789b6e-4fbf-463f-9a74-c5e33ce99462.png)
 
 
-3. Cambiar IP Servidor
+3 Cambiar IP Servidor
 
 
-
-4. Cambiar tabla de Host  
+4 Cambiar tabla de Host  
 
 El archivo de hosts en este sistema se encuentra en la ruta /etc/hosts. Es un archivo de texto que podremos editar como superusuario con cualquier editor.
 En este caso usaremos el comando **sudo nano /etc/hosts** para poder ingresar al editor y agregar los hosts que necesite añadir.
@@ -96,7 +93,7 @@ En este caso usaremos el comando **sudo nano /etc/hosts** para poder ingresar al
 
 
 
-5. Agregar Permisos de Firewall
+5 Agregar Permisos de Firewall
 
 Para agregar permisos de Firewall se le muestra un menú al usuario para que elija cual de todos los permisos desea habilitar, una vez el usuario digite la opción del menú y dependiendo de la elección se ejecutará uno de los siguintes comando, que tienen como objetivo habilitar dicha opción.
  
@@ -118,7 +115,7 @@ Para agregar permisos de Firewall se le muestra un menú al usuario para que eli
 ![T2P5 4](https://user-images.githubusercontent.com/126521214/222824547-91cea27c-1c39-42e5-a6e9-582ba39b8891.png)
 
 
-6. Editar DNS Server
+6 Editar DNS Server
 
 AL igual que en el punto anterior, se le da a conocer al usuario un menú para que elija la opción que desee y dependiendo de ésta, se ejecutará el comando pertienente.
 
