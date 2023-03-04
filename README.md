@@ -1,6 +1,8 @@
 # Taller Sistemas Operativos
 ---
+
 ***TALLER 1***  
+
 -----
 1. Busque en la carpeta / los archivo *.sh y guarde el resultado en un archivo y en el mismo comando imprimir en consola el archivo de salida
  
@@ -63,7 +65,7 @@ Una vez el usuario escoja la opción 1, se muestra en pantalla el nombre actual 
 
 ![T2P1 2](https://user-images.githubusercontent.com/126521214/222814769-f5418bd4-f91b-4ba7-89c1-cc0122126c15.png)  
 
-2. Cambiar Partición Discos 
+2) Cambiar Partición Discos 
 
 Cuando el usuario elije la opción 2, mediante el comando **sudo fdisk -l** se lista todos los disco para que el usuario elija el nombre del que desea particionar.
 Despues de que el usuario dijite el nombre del disco, con el comando **sudo fdisk $NameDisk** se ingresa a la configuracion para particionar el disco y se debe dijitar las opciones pertinenetes.
