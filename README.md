@@ -1,6 +1,6 @@
 # Taller Sistemas Operativos
 ---
-***TALLER 1***
+***TALLER 1***  
 -----
 1. Busque en la carpeta / los archivo *.sh y guarde el resultado en un archivo y en el mismo comando imprimir en consola el archivo de salida
  
@@ -45,8 +45,8 @@ Primero debemos entrar al usuario root, mediante el comando **sudo su** .  Una v
  ![T1P4 1](https://user-images.githubusercontent.com/126521214/222807263-5279b3e7-6d1e-47bd-abc2-a2fc03a0dbf2.jpg)
  ![T1P4 2](https://user-images.githubusercontent.com/126521214/222807278-b4598a70-8a54-416a-874a-634e370d0c86.png)
 
-
-***TALLER 2***
+---
+***TALLER 2***  
 -----
 Crear un script Shell con un menú que me permita: 
 
