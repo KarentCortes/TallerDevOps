@@ -76,9 +76,14 @@ Despues de que el usuario dijite el nombre del disco, con el comando **sudo fdis
 ![T2P2 5](https://user-images.githubusercontent.com/126521214/222822574-a7a2d077-b382-4d8c-975a-865647bcafde.png)
 ![T2P2 6](https://user-images.githubusercontent.com/126521214/222822583-25789b6e-4fbf-463f-9a74-c5e33ce99462.png)
 
+3 Cambiar IP Servidor  
 
-3 Cambiar IP Servidor
+Cuando el usuario elije la opción 3, mediante el comando **ifconfig** se le muestra en pantalla las direcciones IPs y sus interfaces.  
+Después se le pide al usuario que digite la nueva dirección IP que desea configurar, se toma esa nueva dirección y se ejecuta el comando que realiza el cambio pertinente y debido a esto, la máquina pierde conexión y realiza un reinicio con la nueva IP. 
 
+
+![T2P3 1](https://user-images.githubusercontent.com/126521214/222869556-5f55bc43-f8ce-45c2-928d-bb3f88481cba.png)
+![T2P3](https://user-images.githubusercontent.com/126521214/222869557-67139b1d-7537-4904-a4b5-19e6d2d7e6a7.png)
 
 4 Cambiar tabla de Host  
 
