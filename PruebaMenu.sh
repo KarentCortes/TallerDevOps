@@ -30,7 +30,7 @@ do
  	echo "- -----------------------------------"
   echo "-  6. Editar DNS Server              "
 	echo "- -----------------------------------"
-  echo "-  7. Configurar Proxy               "
+  echo "-  7. Instalar Docker               "
  	echo "- -----------------------------------"
   echo "-  E. Exit                           "
   echo "- -----------------------------------"
@@ -42,7 +42,7 @@ do
 	case $choice in
 
 	  1)
-    echo -e "\n"
+        echo -e "\n"
   	    echo "-  1. Cambiar nombre Servidor        " 
         echo -e "\n"
         echo "   Nombre Server Actual                :[$(hostname)] "
@@ -61,7 +61,7 @@ do
         ;;
 
     2)
-    echo -e "\n"
+      echo -e "\n"
       echo "-  2. Cambiar Particion Discos       "
       echo -e "\n"
     	echo " Elija de los discos siguientes, el que desea particionar"
@@ -75,7 +75,7 @@ do
         ;;
         
      3)
-     echo -e "\n"
+      echo -e "\n"
       echo "-  3. Cambiar IP Servidor            "
       echo -e "\n"
     	echo " A continuacion encontrara las direcciones Ips y las interfaces: "
@@ -89,7 +89,7 @@ do
         ;;
         
      4)
-     echo -e "\n"
+      echo -e "\n"
       echo "-  4. Cambiar Tabla de Host          "
       echo -e "\n"
     	echo " A continuacion realice el cambio en la tabla de host : "
@@ -99,7 +99,7 @@ do
         ;;
         
      5)
-     echo -e "\n"
+      echo -e "\n"
       echo "-  5. Agregar Permisos de Firewall   "
       echo -e "\n"
     	echo " Para hablitar el servicio de Firewall digite la opcion F1 : "
@@ -143,7 +143,7 @@ do
         ;; 
         
      6)
-     echo -e "\n"  
+      echo -e "\n"  
       echo "-  6. Editar DNS Server              "
       echo -e "\n"
     	echo " Para hablitar el servicio de DNS digite la opcion D1 : "
@@ -180,6 +180,94 @@ do
        fi
         ;; 
         
+     7)   
+         # Ejecucion
+            echo "-----------------------------------------------------------------------------"
+            echo "Inicia instalacion docker CE                                                 "
+            echo "-----------------------------------------------------------------------------"
+            read -p ">> Paso 1: Desea Instalar Docker (y/n)? " answer
+
+            if [[ $answer =~ ^[Yy]$ ]]
+                then
+                    cd ~/
+
+                    echo "-----------------------------------------------------------------------------"
+                    echo "Instalación Prerequisitios"
+                    echo "-----------------------------------------------------------------------------"
+                    sudo apt-get update -y
+                    sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
+                    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - 
+                    sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" -y
+                    sudo apt update -y
+                    apt-cache policy docker-ce -y
+                    sudo apt install docker-ce -y
+
+                    echo "-----------------------------------------------------------------------------"
+                    echo "Verificar Version"
+                    echo "-----------------------------------------------------------------------------"
+                    docker --version
+
+                                  
+                    echo "-----------------------------------------------------------------------------"
+                    echo "Crear usuario de Docker"
+                    echo "-----------------------------------------------------------------------------"
+                    sudo adduser docker
+
+                    
+                    echo "-----------------------------------------------------------------------------"
+                    echo "Agregar permisos usuario ubunutu al grupo Docker"
+                    echo "-----------------------------------------------------------------------------"
+                    user=$(whoami)
+                    sudo usermod -G docker $user
+                    grep $user /etc/group
+
+                    echo "-----------------------------------------------------------------------------"
+                    echo "folder docker"
+                    echo "-----------------------------------------------------------------------------"
+                    folder=/Images
+                    sudo mkdir -p $folder/$user
+                    sudo mkdir -p $folder/$user/Data
+                    sudo chown -R $user:$user $folder/$user
+                    sudo chown -R $user:$user $folder/$user/Data
+                    ls -ltr $folder/
+
+                    read -p "Press [Enter] key to continue..." readEnterKey
+
+                    echo "-----------------------------------------------------------------------------"
+                    echo "Inicia instalacion Docker Compose                                            "
+                    echo "-----------------------------------------------------------------------------"
+
+                    sudo mkdir -p /usr/local/bin
+                    sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+                    sudo chmod +x /usr/local/bin/docker-compose
+
+                    echo "-----------------------------------------------------------------------------"
+                    echo "Verificar docker-compose"
+                    echo "-----------------------------------------------------------------------------"
+                    sudo docker-compose --version
+
+                    read -p "Press [Enter] key to continue..." readEnterKey
+
+                    echo "-----------------------------------------------------------------------------"
+                    echo "Iniciar docker con el sistema"
+                    echo "-----------------------------------------------------------------------------"
+                    sudo systemctl enable docker
+                    sudo systemctl start docker
+                    
+                    echo "-----------------------------------------------------------------------------"
+                    echo "Fin instalacion Docker                                                       "
+                    echo "-----------------------------------------------------------------------------"
+
+                    read -p "Press [Enter] key to continue..." readEnterKey
+            fi
+            echo "-----------------------------------------------------------------------------"
+            echo "Sin Ajustes!!"
+            echo "-----------------------------------------------------------------------------"
+                
+            echo ---------- Fin del Script ----------------------------
+            read -p "Press [Enter] key to continue..." readEnterKey
+            ;;
         
   	E)
    
