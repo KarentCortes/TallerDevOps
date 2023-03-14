@@ -5,8 +5,8 @@ Dentro de este repositorio se encontrará la documentación de los talleres real
 
 1. TallerSO.md
    
-Este taller se trabajo en dos partes las cuales constan de los suiguientes puntos:
- *Parte 1*
+   Este taller se trabajo en dos partes las cuales constan de los suiguientes puntos:  
+    *Parte 1*
  * 
 
 
