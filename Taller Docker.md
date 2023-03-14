@@ -10,6 +10,7 @@
 2. Crear cuenta en Dockerhub  
 
     Al igual que en el punto anterior, debemos ingresar a la página de **DockerHub** y realizar el respectivo registro dado que aún no teniamos usuario y contraseña.
+
     ![TallerDocker_3](https://user-images.githubusercontent.com/126521214/225091828-d9a0f7a2-6a14-4dd5-934f-6c0912f9f72a.png)  
     
 3. Crear repositorio 
