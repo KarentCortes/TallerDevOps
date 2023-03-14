@@ -2,13 +2,13 @@
 ---
 ***TALLER 1***  
 -----
-[^1] Busque en la carpeta / los archivo *.sh y guarde el resultado en un archivo y en el mismo comando imprimir en consola el archivo de salida
+1. Busque en la carpeta / los archivo *.sh y guarde el resultado en un archivo y en el mismo comando imprimir en consola el archivo de salida
  
 Primero debemos entrar al usuario root, mediante el comando **sudo su** .  Una vez estando ahi, con el comando **find/-name"*.sh"** estamos buscando todos los archivos del sistema con la extensión .sh y con el comando **tee resultados.txt** guardamos el resultado del comando anterior dentro del archivo que se crea y se denomina  archivo.txt y asi mismo listamos lo que se almacena dentro del archivo.
 
 ![Taller1_Punto1](https://user-images.githubusercontent.com/126521214/222804716-4f83ff52-2454-4078-a9cf-43f26d179dd4.png)
 
-2 Cree una lista de archivos separados por Enter llamándolo entrada.in, después con la lista leer entrada.in y crear los archivos con la lista creada en la carpeta        file_salida/, liste los archivos creados, guarde en un archivo salida.out e imprima el archivo  enumerando la lista de archivos creados.
+1. Cree una lista de archivos separados por Enter llamándolo entrada.in, después con la lista leer entrada.in y crear los archivos con la lista creada en la carpeta        file_salida/, liste los archivos creados, guarde en un archivo salida.out e imprima el archivo  enumerando la lista de archivos creados.
 
  Se crea el archivo llamado entrada.in, el cual contiene una lista de archivos denominados: 
  -	Algo1.txt
