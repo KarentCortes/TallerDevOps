@@ -4,13 +4,13 @@
 -----
 1. Crear cuenta en GitHub 
  
-   Lo primero que debemos hacer es ingresar a la pagina de **GitHub** y realizar el respectivo registro dado que aún no teníamos un usuario y una contraseña.  
+   Lo primero que debemos hacer es ingresar a la página de **GitHub** y realizar el respectivo registro dado que aún no teníamos un usuario y una contraseña.  
   ![TallerDocker_1](https://user-images.githubusercontent.com/126521214/225089210-ede3a1b5-c32e-4a6f-aa67-e3d1ba4c33b6.png)  
   
 2. Crear cuenta en Dockerhub  
 
     Al igual que en el punto anterior, debemos ingresar a la página de **DockerHub** y realizar el respectivo registro dado que aún no teniamos usuario y contraseña.
-    ![TallerDocker_4](https://user-images.githubusercontent.com/126521214/225091837-7f9e3113-5a18-47e2-8f74-60f6d10d2561.png)  
+    ![TallerDocker_3](https://user-images.githubusercontent.com/126521214/225091828-d9a0f7a2-6a14-4dd5-934f-6c0912f9f72a.png)  
     
 3. Crear repositorio 
  
@@ -18,7 +18,7 @@
   
   ![TallerDocker_2](https://user-images.githubusercontent.com/126521214/225089229-7a6100a0-2966-4811-bf7b-6de94531b902.png)
   
-  Con la cuenta de DockerHub procedemos a crear tambien un repositorio, en este caso se denomina **actividad_devops_1**
+  Con la cuenta de DockerHub procedemos a crear también un repositorio, en este caso se denomina **actividad_devops_1**
 
   ![TallerDocker_4](https://user-images.githubusercontent.com/126521214/225091837-7f9e3113-5a18-47e2-8f74-60f6d10d2561.png)
 
