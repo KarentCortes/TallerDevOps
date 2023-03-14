@@ -12,11 +12,13 @@
     Al igual que en el punto anterior, debemos ingresar a la página de **DockerHub** y realizar el respectivo registro dado que aún no teniamos usuario y contraseña.
     ![TallerDocker_4](https://user-images.githubusercontent.com/126521214/225091837-7f9e3113-5a18-47e2-8f74-60f6d10d2561.png)  
     
-3. Crear repositorio  
+3. Crear repositorio 
+ 
   Una vez tengamos creada la cuenta en GitHub, procedemos a crear un repositorio y a realizar las configuraciones pertinentes. En este caso el repositorio se denomina    **TallerDevOps** y lo dejamos de dominio público.  
   ![TallerDocker_2](https://user-images.githubusercontent.com/126521214/225089229-7a6100a0-2966-4811-bf7b-6de94531b902.png)
   
   Con la cuenta de DockerHub procedemos a crear tambien un repositorio, en este caso se denomina **actividad_devops_1**
+
   ![TallerDocker_4](https://user-images.githubusercontent.com/126521214/225091837-7f9e3113-5a18-47e2-8f74-60f6d10d2561.png)
 
 4. Configuración de llaves SSH
