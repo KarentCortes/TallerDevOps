@@ -4,7 +4,7 @@
 -----
 1. Crear cuenta en GitHub 
  
-  Lo primero que debemos hacer es ingresar a la pagina de **GitHub** y realizar el respectivo registro dado que aún no teníamos un usuario y una contraseña.  
+   Lo primero que debemos hacer es ingresar a la pagina de **GitHub** y realizar el respectivo registro dado que aún no teníamos un usuario y una contraseña.  
   ![TallerDocker_1](https://user-images.githubusercontent.com/126521214/225089210-ede3a1b5-c32e-4a6f-aa67-e3d1ba4c33b6.png)  
   
 2. Crear cuenta en Dockerhub  
@@ -14,7 +14,8 @@
     
 3. Crear repositorio 
  
-  Una vez tengamos creada la cuenta en GitHub, procedemos a crear un repositorio y a realizar las configuraciones pertinentes. En este caso el repositorio se denomina    **TallerDevOps** y lo dejamos de dominio público.  
+   Una vez tengamos creada la cuenta en GitHub, procedemos a crear un repositorio y a realizar las configuraciones pertinentes. En este caso el repositorio se            denomina **TallerDevOps** y lo dejamos de dominio público.
+  
   ![TallerDocker_2](https://user-images.githubusercontent.com/126521214/225089229-7a6100a0-2966-4811-bf7b-6de94531b902.png)
   
   Con la cuenta de DockerHub procedemos a crear tambien un repositorio, en este caso se denomina **actividad_devops_1**
