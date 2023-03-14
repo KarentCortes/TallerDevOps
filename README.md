@@ -3,11 +3,11 @@
 
 Dentro de este repositorio se encontrará la documentación de los talleres realizados en las clases de DevOps. Para ver la documentación a detalle de cada uno de los talleres, por favor dirgirse a los archivos denominados de la siguiente manera:  
  
- ## * TallerSO.md
+## TallerSO.md
 
    Este taller se trabajo en dos partes, las cuales constan de los suiguientes puntos: 
  
-   **Parte 1**
+ **Parte 1**
 
   1. Busque en la carpeta / los archivo *.sh y guarde el resultado en un archivo y en el mismo comando imprimir en consola el archivo de salida
   2. Cree una lista de archivos separados por Enter llamándolo entrada.in, después con la lista leer entrada.in y crear los archivos con la lista creada en la                 carpeta file_salida/, liste los archivos creados, guarde en un archivo salida.out e imprima el archivo  enumerando la lista de archivos creados
@@ -15,13 +15,14 @@ Dentro de este repositorio se encontrará la documentación de los talleres real
   4. Del listado anterior cambie el nombre de los archivos agregándole al final -mv.txt, liste los archivos e imprima el archivo en consola.
 
  **Parte 2**
-
-1. jjj
-2. dd
-3. dd
-4. d
-5. ddd
-6. 
+  Crear un script Shell con un menú que me permita:  
+  1. Cambiar nombre Servidor
+  2. Cambiar Partición Discos
+  3. Cambiar IP Servidor
+  4. Cambiar tabla de Host
+  5. Agregar Permisos de Firewall
+  6. Editar DNS Server
+  
  
 ## Taller Docker.md
 
