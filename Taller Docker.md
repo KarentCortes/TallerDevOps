@@ -2,8 +2,8 @@
 ---
 ***TALLER 1***  
 -----
-1. Crear cuenta en GitHub
-1.Crear cuenta en Dockerhub
+1. Crear cuenta en GitHub  
+1.Crear cuenta en Dockerhub  
 [1]: My reference.
 
 
