@@ -25,7 +25,11 @@
 
 4. Configuración de llaves SSH
 
+    Para realizar la configuración de las llaves SSH dentro de GitHub, debemos dirigirnos al apartado de Settings de la cuenta en general y una vez estando allí           procedemos a buscar la opcion que dice **SSH and GPG Keys** como se muestra en la imagen.   
+    Una vez ingresemos en esa opción, procedemos a dar clic en el apartado que dice **New SSh Key**.  
+    Finalmente agregamos nuestra llave y le damos guardar.  
 
+   ![TallerDocker_5](https://user-images.githubusercontent.com/126521214/225142128-dec27d50-928a-465e-86b9-73f116e6e85c.png)
 
 ***TALLER 2***  
 -----
