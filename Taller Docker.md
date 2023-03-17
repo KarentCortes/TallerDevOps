@@ -50,16 +50,16 @@ Dentro del Menú agregamos la opción de instalación de docker y docker-compose
 
   ![TallerDocker_9](https://user-images.githubusercontent.com/126521214/226064526-8e2acade-c5bc-4b98-8e4a-66ee4fff9727.png)
   
-4. Instalar Shell en servidor de AWS
+3. Instalar Shell en servidor de AWS
 
   En la siguiente imagen también podemos observar que ya quedo montada la shell con la que se automatizo la configuración de Git, esta configuración se hace en la rama   que uno especifica con anterioridad dentro de la misma shell. 
 
   ![TallerDocker_9](https://user-images.githubusercontent.com/126521214/226064526-8e2acade-c5bc-4b98-8e4a-66ee4fff9727.png)
 
-5. Pruebas (docker –versión y Docker-compose --version)
+4. Pruebas (docker –versión y Docker-compose --version)
   
    Como se pudo observar en el punto n° 1 de este taller realizamos la instalación de Docker y Docker-compose, entonces a continuación se podra ver la demostración de    las pruebas realizadas. 
    
   ![TallerDocker_10](https://user-images.githubusercontent.com/126521214/226064597-366eb714-63a0-4ce6-9250-b1ed45c37a24.png)
-
+  ![TallerDocker_7](https://user-images.githubusercontent.com/126521214/226063207-971eca01-f094-48ce-aef1-245b16022231.png)
 
