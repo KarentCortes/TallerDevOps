@@ -33,16 +33,33 @@
 
 ***TALLER 2***  
 -----
-1. .Agregar modulo de instalación de Docker en menú de administración para instalación y pruebas unitarias
-2. Subir cambios a repositorio
-3. Clonar repositorio
-4. Instalar Shell en servidor de AWS
-5. Pruebas (docker –versión y Docker-compose --version)
+1. .Agregar modulo de instalación de Docker en menú de administración para instalación y pruebas unitarias  
 
-***TALLER 3***  
------
-1. Preparación de imagen de Jenkins con Dockerfle
-2. Preparación de docker-compose de contenedor Jenkins
-3. Creación de llavero jks certificado de sitio SSL
-4. Revisión de contenedor (logs, volumenes, red, tags, subir a registry de docker)
+Dentro del Menú agregamos la opción de instalación de docker y docker-compose. A continuación se podra observar como funciona el menú con esta opción.
+
+  ![TallerDocker_6](https://user-images.githubusercontent.com/126521214/226063186-448f6054-bf66-4894-9f90-02df005f0bbe.png)
+  ![TallerDocker_7](https://user-images.githubusercontent.com/126521214/226063207-971eca01-f094-48ce-aef1-245b16022231.png)
+  
+   En la siguiente imagen se muestra el código que lleva el Menu.sh para que la instalación sea automática
+   
+  ![TallerDocker_8](https://user-images.githubusercontent.com/126521214/226063222-573d03ef-1008-469b-abe8-9c6d6e75cc9d.png)
+
+2. Subir cambios a repositorio y clonar repositorio.
+
+   Una vez que guardamos los cambios del Menú.sh, por medio de la shell con la que automatizamos  la configuración de GitHub subimos los cambios y clonamos el            repositorio para todo quede tanto en GitHub como en la máquina virtual. 
+
+  ![TallerDocker_9](https://user-images.githubusercontent.com/126521214/226064526-8e2acade-c5bc-4b98-8e4a-66ee4fff9727.png)
+  
+4. Instalar Shell en servidor de AWS
+
+  En la siguiente imagen también podemos observar que ya quedo montada la shell con la que se automatizo la configuración de Git, esta configuración se hace en la rama   que uno especifica con anterioridad dentro de la misma shell. 
+
+  ![TallerDocker_9](https://user-images.githubusercontent.com/126521214/226064526-8e2acade-c5bc-4b98-8e4a-66ee4fff9727.png)
+
+5. Pruebas (docker –versión y Docker-compose --version)
+  
+   Como se pudo observar en el punto n° 1 de este taller realizamos la instalación de Docker y Docker-compose, entonces a continuación se podra ver la demostración de    las pruebas realizadas. 
+   
+  ![TallerDocker_10](https://user-images.githubusercontent.com/126521214/226064597-366eb714-63a0-4ce6-9250-b1ed45c37a24.png)
+
 
