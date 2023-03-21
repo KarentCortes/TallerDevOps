@@ -44,12 +44,7 @@ Dentro de este repositorio se encontrará la documentación de los talleres real
   4. Instalar Shell en servidor de AWS
   5. Pruebas (docker –versión y Docker-compose --version)
   
- **Parte 3**  
-  
-  1. Preparación de imagen de Jenkins con Dockerfle
-  2. Preparación de docker-compose de contenedor Jenkins
-  3. Creación de llavero jks certificado de sitio SSL
-  4. Revisión de contenedor (logs, volumenes, red, tags, subir a registry de docker)
+
   
   
   
